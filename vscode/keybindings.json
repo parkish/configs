@@ -1,69 +1,70 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-  {
-    "key": "cmd+'",
-    "command": "workbench.action.splitEditor"
-  },
-  {
-    "key": "cmd+d",
-    "command": "editor.action.copyLinesDownAction",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+cmd+down",
-    "command": "editor.action.moveLinesDownAction",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+cmd+up",
-    "command": "editor.action.moveLinesUpAction",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+r",
-    "command": "editor.action.startFindReplaceAction"
-  },
-  {
-    "key": "alt+cmd+l",
-    "command": "editor.action.format",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+-",
-    "command": "editor.action.commentLine",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+shift+i",
-    "command": "editor.action.previewDeclaration",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+b",
-    "command": "editor.action.goToDeclaration",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+l",
-    "command": "workbench.action.gotoLine",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+cmd+o",
-    "command": "workbench.action.gotoSymbol"
-  },
-  {
-    "key": "cmd+shift+o",
-    "command": "workbench.action.quickOpen"
-  },
-  {
-    "key": "alt+enter",
-    "command": "editor.action.quickFix",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "shift+f6",
-    "command": "editor.action.changeAll",
-    "when": "editorTextFocus"
-  }
+    {
+        "key": "cmd+shift+i",
+        "command": "editor.action.previewDeclaration",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+b",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+alt-left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "cmd+alt-right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "cmd+alt+l",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+n",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k m",
+        "command": "workbench.action.showErrorsWarnings"
+    },
+    {
+        "key": "cmd+p",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+f6",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+[",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+g",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "cmd+n",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+1",
+        "command": "workbench.view.explorer"
+    }
 ]

@@ -66,5 +66,23 @@
     {
         "key": "cmd+1",
         "command": "workbench.view.explorer"
+    },
+    {
+        "key": "cmd+-",
+        "command": "editor.fold",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+=",
+        "command": "editor.unfold",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+shift+=",
+        "command": "workbench.action.zoomIn"
+    },
+    {
+        "key": "cmd+shift+-",
+        "command": "workbench.action.zoomOut"
     }
 ]
